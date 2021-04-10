@@ -8,6 +8,7 @@ namespace RPG_GAME
 {
     class Program
     {
+
         static void Main(string[] args)
         {
 
@@ -15,7 +16,7 @@ namespace RPG_GAME
             string secim;
             Random rastgele = new Random();
 
-            Console.WriteLine("Oyunuma hoşgeldin.");
+            Console.WriteLine("Oyunuma hoşgeldiniz.");
         basadon:
             Console.WriteLine("Canın: " + can + " Gücün: " + guc + " Xp: " + xp + "\n");
             Console.WriteLine("1-Fare (İlk seviye için önerilir)");
@@ -26,7 +27,7 @@ namespace RPG_GAME
 
             switch (secim)
             {
-                case "1":               //FAREFAREFAREFAREFAREFAREEEEEEAQ
+                case "1":
                     Console.Clear();
                     canavarcan = 20;
                 farebas:
